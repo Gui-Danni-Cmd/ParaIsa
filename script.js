@@ -29,12 +29,12 @@ const certas = [
     "Gui",
     "Você",
     "Vc",
-    "Guilherme Dannilo",
-    "Guilherme Danilo",
-    "Guilherme Dannilo Maciel",
-    "Guilherme Dannilo Maciel Coelho",
-    "Guilherme Danilo Maciel",
-    "Guilherme Danilo Maciel Coelho",
+    "GuilhermeDannilo",
+    "GuilhermeDanilo",
+    "GuilhermeDanniloMaciel",
+    "GuilhermeDanniloMacielCoelho",
+    "GuilhermeDaniloMaciel",
+    "GuilhermeDaniloMacielCoelho",
 ]
 
 const respCertaN = [
@@ -69,11 +69,11 @@ function ouvirResposta(){
         responder("Nada digitado no campo")
     }
     else{
-        if (vaCerta.includes(valorDigitado.value.toUpperCase())){
+        if (vaCerta.includes(valorDigitado.value.toUpperCase().replace(/ /g, ""))){
             responder("Eu te amoooooo mil milhões<3")
         }
         else{
-            if(certahihi.includes(valorDigitado.value.toUpperCase())){
+            if(certahihi.includes(valorDigitado.value.toUpperCase().replace(/ /g, ""))){
                 responder("Sim. Mas não é essa resposta. rsrsrsr")
             }
             else{
