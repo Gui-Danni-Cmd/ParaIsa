@@ -70,7 +70,7 @@ function ouvirResposta(){
     }
     else{
         if (vaCerta.includes(valorDigitado.value.toUpperCase())){
-            responder("Uhuuu")
+            responder("Eu te amoo mil milhões<3")
         }
         else{
             if(certahihi.includes(valorDigitado.value.toUpperCase())){
