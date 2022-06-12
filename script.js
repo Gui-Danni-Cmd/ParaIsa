@@ -70,7 +70,7 @@ function ouvirResposta(){
     }
     else{
         if (vaCerta.includes(valorDigitado.value.toUpperCase().replace(/ /g, ""))){
-            responder("Eu te amoo mil milhões<3")
+            responder('Eu te amoo mil milhões<3 <a href="./textinho.html">Clique aqui</a>')
         }
         else{
             if(certahihi.includes(valorDigitado.value.toUpperCase().replace(/ /g, ""))){
