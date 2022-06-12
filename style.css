@@ -28,7 +28,7 @@ img{
     /* background-color: rgb(80, 80, 80); */
     background-image: linear-gradient(to right, #B51F1A , #F98EF6);
     border-radius: 9px;
-    padding: 80%;
+    padding: 10px;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
